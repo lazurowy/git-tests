@@ -7,6 +7,7 @@ var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Hello World\n");
   console.log("Request ended.");
+  console.log("some other change.");
 });
 
 // Listen on port 8000, IP defaults to 127.0.0.1
