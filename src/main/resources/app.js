@@ -8,6 +8,7 @@ var server = http.createServer(function (request, response) {
   response.end("Hello World\n");
   if (true) {
     console.log("Request ended.");
+    console.log("Local change.");
     console.log("some other change :).");
   }
 });
