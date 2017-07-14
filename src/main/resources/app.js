@@ -10,6 +10,8 @@ var server = http.createServer(function (request, response) {
     console.log("Request ended.");
     console.log("But execution does not");
     console.log("so I can do some other change :).");
+  } else {
+    console.log("Never happens");
   }
 });
 
