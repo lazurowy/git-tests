@@ -13,8 +13,8 @@ var server = http.createServer(function (request, response) {
   } else {
     console.log("Never happens");
   }
-  console.log("OK!")
-  console.log("OK!")
+  console.log("OK!");
+  console.log("branch-3!")
 });
 
 // Listen on port 8000, IP defaults to 127.0.0.1
