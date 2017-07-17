@@ -13,7 +13,7 @@ var server = http.createServer(function (request, response) {
   } else {
     console.log("Never happens");
   }
-  console.log("OK!")
+  console.log("OK! Almost over")
   console.log("OK!")
 });
 
